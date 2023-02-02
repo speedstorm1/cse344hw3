@@ -1,0 +1,22 @@
+I thought that using the cloud-hosted DBMS was a good experience for the most part, 
+and I was able to set up the database and run queries on it somewhat smoothly. I 
+did run into some issues with the dbms, specifically being logged out after every 
+3 - 4 queries. Another small issue that I ran into while using it, was that in 
+some situations where the query itself was an invalid query, it would take several 
+seconds to still output that value; however, from my experience last homework, 
+this didn't really seem to occur while running commands on the terminal. 
+However, this may be impacted by the queries that are being run.
+
+I would recommend this to a fellow student for tinkering and experimentation, 
+because it was pretty cool, and especially being able to run different queries 
+at the same time to try out different variations of where clauses, for example, 
+was pretty helpful. In addition, being able to type up and edit queries within 
+the query submission areas, with syntax highlighting, providing a smooth UI.
+
+I would reommend it to future co-workers for their projects as well, because 
+of the features I previously mentioned, as well as its ability to work with 
+large amounts of data which might not be so easy on a personal laptop. 
+In addition, it is not possible to collaborate with co-workers on projects 
+or databases if they are stored on a single device, but I think that a 
+cloud-hosted DBMS would allow for many people to access the database and 
+run queries on it, because it is not in a single, remote location.
