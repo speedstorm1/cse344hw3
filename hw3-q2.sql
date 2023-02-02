@@ -1,11 +1,14 @@
 SELECT DISTINCT f.origin_city as city
-FROM [dbo].[FLIGHTS] as f 
+FROM Flights as f 
 WHERE canceled = 0
 GROUP BY f.origin_city
 HAVING MAX(f.actual_time) < 180
 ORDER By f.origin_city;
 
 -- 109
+
+-- 7 seconds
+
 -- Aberdeen SD
 -- Abilene TX
 -- Alpena MI

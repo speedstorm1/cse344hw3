@@ -1,6 +1,6 @@
 WITH MaxDuration AS 
     (SELECT DISTINCT f1.origin_city, MAX(f1.actual_time) as ACTUALTIME
-    FROM [dbo].[FLIGHTS] as f1
+    FROM Flights as f1
     GROUP BY f1.origin_city)
 SELECT DISTINCT f2.origin_city, f2.dest_city, f2.actual_time as time
 FROM Flights as f2, MaxDuration as MD
@@ -9,6 +9,8 @@ WHERE f2.origin_city = MD.origin_city AND
 ORDER BY f2.origin_city, f2.dest_city;
 
 -- 334
+
+-- 9 seconds
 
 -- Aberdeen SD	Minneapolis MN	106
 -- Abilene TX	Dallas/Fort Worth TX	111
